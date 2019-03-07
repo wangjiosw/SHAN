@@ -1,4 +1,4 @@
-# SHAN (Not completed yet)
+# SHAN
 
 
 Keras implementation of [Syntax-Directed Hybrid Attention Network for Aspect-Level Sentiment Analysis](https://ieeexplore.ieee.org/document/8561296)
@@ -46,21 +46,21 @@ dir *test*:
 ## Usage
 For training, `python Main.py train`
 <br>
-For testing, `python main.py test`
+For testing, `python Main.py test`
 
 ## Result
 
 ### train data
 set validation_split=0.2
-- 80% data training
-- 20% data validating
+- 80% data training = 0.7623
+- 20% data validating = 0.7064
 
 categorical_accuracy:  
 <br>
 val_categorical_accuracy: 
 
 ### test data
-accuracy: 
+accuracy: 0.84375
 
 ## Pretrained model
 [no pretrained model](wwww.github.com)

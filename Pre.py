@@ -56,15 +56,15 @@ def pre(sent):
     
     word_list = cutWords(sent)
     # filter stop words        
-    filtered_words = [word for word in word_list if word not in stop_words]
+    # filtered_words = [word for word in word_list if word not in stop_words]
     
     # Lemmatization
-    lwords = []
-    for w in word_list:
-        lwords.append(wnl.lemmatize(w))  
+    # lwords = []
+    # for w in word_list:
+    #     lwords.append(wnl.lemmatize(w))  
     
     
-    return lwords
+    return word_list
 
 
 def getLabel(result):

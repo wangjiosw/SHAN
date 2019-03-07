@@ -104,7 +104,7 @@ def SHAN_Model():
   
   model = Model(inputs=[input1,input2,input3], outputs=y_pre)  
   
-  adam = keras.optimizers.Adam(lr=0.5, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
+  adam = keras.optimizers.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
 
   model.compile(loss='categorical_crossentropy',
                 optimizer=adam,
