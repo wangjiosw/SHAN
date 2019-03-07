@@ -9,7 +9,7 @@ Keras implementation of [Syntax-Directed Hybrid Attention Network for Aspect-Lev
 3. pyenchant （pip install pyenchant）
 4. python 2.7
 5. nltk (pip install nltk)
-6. download pretrained glove [glove.840B.300d.zip](https://nlp.stanford.edu/data/wordvecs/glove.840B.300d.zip) and unzip it in dir *GLOVE_MODEL*
+6. download pretrained glove [glove.840B.300d.zip](https://nlp.stanford.edu/data/wordvecs/glove.840B.300d.zip) and unzip it to dir *GLOVE_MODEL*
 
 ## Preprocess
 1. GetData.py : extract data from xml file
