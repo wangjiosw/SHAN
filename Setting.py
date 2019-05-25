@@ -7,5 +7,5 @@ Created on Mon Mar  4 17:55:53 2019
 """
 
 
-max_len = 80
+max_len = 30
 reg_w = 1e-4
